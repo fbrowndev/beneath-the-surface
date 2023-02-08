@@ -1,0 +1,16 @@
+## creating chunk format
+## this is a comment
+## dimensions 32x18
+
+## floor
+defineTile tileArray "wall" 1:1 (32,1) (32,17)
+## wall
+defineTile tileArray "floor" 1:0 (0,18) (31,18)
+## corner
+defineTile tile "corner" 2:0 (32,18)
+
+## ramp test
+defineTile tileLine:.5 "ramp" 1:0 (28,14) 10
+
+## ball
+defineMob mob "example_mob" 0 (30,0)
